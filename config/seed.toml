@@ -1,0 +1,12 @@
+[seed]
+version = "1.0.0"
+
+[invariants]
+allow_arbitrary_network_outbound = false
+require_cryptographic_signatures = true
+deny_unsafe_rust = true
+max_memory_mb = 4096
+max_cpu_seconds = 30
+max_wall_seconds = 60
+max_source_bytes = 262144
+max_test_bytes = 262144
